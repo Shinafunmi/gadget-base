@@ -1,0 +1,9 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+@layer components {
+    .hoverEffect{
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+}
